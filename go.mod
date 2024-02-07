@@ -21,3 +21,8 @@ require (
 	golang.org/x/tools v0.0.0-20191029190741-b9c20aec41a5 // indirect
 	honnef.co/go/tools v0.0.1-2019.2.3 // indirect
 )
+
+replace (
+	github.com/project-flogo/services/flow-state  => github.com/devs-in-inf/services/flow-state@latest
+	github.com/project-flogo/services/flow-store  => github.com/devs-in-inf/services/flow-store@latest
+) 
