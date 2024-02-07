@@ -1,6 +1,6 @@
 module github.com/project-flogo/services
 
-go 1.18
+go 1.21
 
 require (
 	github.com/project-flogo/services/flow-state v0.1.0
